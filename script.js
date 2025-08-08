@@ -41,10 +41,22 @@ let player=document.querySelector(".player");
 audio.src="Saiyaara Title Track Mp3 Song 2025 singer by Tanishk Bagchi, Faheem Abdullah, Arslan Nizami, Irshad Kamil from Saiyaara 2025.mp3"
 audio.volume=0.5;
 player.prepend(audio);
+let select=document.querySelector(".ri-play-fill");
 
 function play(){
 
-  audio.play();
+ 
+  if(select.className=="ri-play-fill"){
+select.className="ri-pause-line"
+audio.play();
+  }
+  else{
+audio.pause();
+select.className="ri-play-fill";
+
+
+  }
+
 
 
 }

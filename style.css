@@ -150,3 +150,26 @@ align-items: center;
 
 }
 
+.increase:hover{
+
+ background-color:greenyellow;
+ 
+
+}
+
+.decrease:hover{
+background-color: red;
+cursor: pointer;
+
+}
+
+.play:hover{
+
+background-color: orangered;
+cursor: pointer;
+}
+i{
+
+    font-size: large;
+    cursor: pointer;
+}
